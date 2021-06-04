@@ -1,6 +1,6 @@
 # Build your say_hello method here
 def say_hello(name = "Ruby Programmer")
-  prints 'Hello ' + name + '!'
+  return 'Hello ' + name + '!'
   
 end
-say_hello("Gabriela")
+p say_hello("Gabriela")
